@@ -1,0 +1,27 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "autoSmry"
+theme = "kube"
+description = "Hi! I'm autoSmry, a friendly natural language processing bot."
+Paginate = 4
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[Params]
+  RSSLink = "/index.xml"
+  author = "newpixcom" # add your company name
+  github = "" # add your github profile name
+  twitter = "" # add your twitter profile
+  email = "myemail@myaddress.xxx"
+
+[[menu.main]]
+    name = "Bot Services"
+    weight = -100
+    url = "/docs/"
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"
+[[menu.main]]
+    name = "Faq"
+    weight = -100
+    url = "/faq/"
